@@ -17,7 +17,7 @@ namespace util {
 	}
 
 	void CWaitgroup::Done() {
-		assert(mState->mCount >= 0);
+		assert(mState->mCount > 0);
 		--mState->mCount;
 		if (mState->mCount == 0) {
 			mState->mIdle.notify_all();
