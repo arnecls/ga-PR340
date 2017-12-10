@@ -26,12 +26,12 @@ namespace util {
 
 	void CWaitgroup::Wait() {
 		std::unique_lock<std::mutex> idle(mState->mIdleLock);
-		if (mState->mCount > 0) {
+		if (TryWait()) {
 			mState->mIdle.wait(idle);
 		}
 	}
 
 	bool CWaitgroup::TryWait() {
-		return mState->mCount != 0;
+		return mState->mCount > 0;
 	}
 }
