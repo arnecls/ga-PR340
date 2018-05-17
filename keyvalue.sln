@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "server", "server\server.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "utilities", "utilities\utilities.vcxproj", "{84437CB6-7017-40DF-82C8-F5980CC89895}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "googletest", "vendor\googletest\googletest.vcxproj", "{03B2322B-AB95-4851-9463-C915E650022B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -47,8 +49,19 @@ Global
 		{84437CB6-7017-40DF-82C8-F5980CC89895}.Release|x64.Build.0 = Release|x64
 		{84437CB6-7017-40DF-82C8-F5980CC89895}.Release|x86.ActiveCfg = Release|Win32
 		{84437CB6-7017-40DF-82C8-F5980CC89895}.Release|x86.Build.0 = Release|Win32
+		{03B2322B-AB95-4851-9463-C915E650022B}.Debug|x64.ActiveCfg = Debug|x64
+		{03B2322B-AB95-4851-9463-C915E650022B}.Debug|x64.Build.0 = Debug|x64
+		{03B2322B-AB95-4851-9463-C915E650022B}.Debug|x86.ActiveCfg = Debug|Win32
+		{03B2322B-AB95-4851-9463-C915E650022B}.Debug|x86.Build.0 = Debug|Win32
+		{03B2322B-AB95-4851-9463-C915E650022B}.Release|x64.ActiveCfg = Release|x64
+		{03B2322B-AB95-4851-9463-C915E650022B}.Release|x64.Build.0 = Release|x64
+		{03B2322B-AB95-4851-9463-C915E650022B}.Release|x86.ActiveCfg = Release|Win32
+		{03B2322B-AB95-4851-9463-C915E650022B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1EDC6EBE-5DB4-423B-83DB-6C74E333C8DA}
 	EndGlobalSection
 EndGlobal
