@@ -4,3 +4,4 @@ build/
 bin/
 .vs/
 *.filters
+xunit-results.xml
