@@ -15,7 +15,7 @@ namespace util {
 		assert(aNumThreads > 0);
 		
 		// Create detached threads as workers will exit automatically
-		mWorker.Add(aNumThreads);
+		mWorker.Add(int(aNumThreads));
 		for (size_t i = 0; i < aNumThreads; ++i) {
 			std::thread worker(std::bind(&CThreadpool::Worker, this));
 			worker.detach();
