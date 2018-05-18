@@ -1,5 +1,8 @@
 # ga-PR340
 
+[https://ci.appveyor.com/api/projects/status/32r7s2skrgm9ubva?svg=true](https://ci.appveyor.com/api/projects/status/32r7s2skrgm9ubva?svg=true)
+
+
 ## Protocol
 
 The server is expected to work on the following protocol:
