@@ -4,4 +4,4 @@ build/
 bin/
 .vs/
 *.filters
-xunit-results.xml
+*unit-results.xml
